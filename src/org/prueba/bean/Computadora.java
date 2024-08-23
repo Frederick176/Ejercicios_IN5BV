@@ -1,14 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.prueba.bean;
 
-/**
- *
- * @author informatica
- */
-public class Computadora {
+public class Computadora extends Dispositivo{
+    private String sistemaOperativo;
     
+    public Computadora(){
+    
+    }
+    
+    public Computadora(String marca, String modelo, int anio, String sistemaOperativo){
+        super(marca, modelo, anio);
+        this.sistemaOperativo = sistemaOperativo;
+        
+    }
+    
+    @Override
+    public void encender(){
+        System.out.println("Enciendo la computadora con " + sistemaOperativo + "...");
+        
+    }
+    
+    public void encender(String clave){
+        System.out.println("Encendiendo la computadora con la clave: " + clave);
+        
+    }
 }
