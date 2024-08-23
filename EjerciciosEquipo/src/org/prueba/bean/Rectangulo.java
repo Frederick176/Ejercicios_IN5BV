@@ -8,6 +8,9 @@ public class Rectangulo extends Forma{
     private double largo;
     private double ancho;
 
+    public Rectangulo() {
+    }
+
     public Rectangulo(double largo, double ancho) {
         this.largo = largo;
         this.ancho = ancho;
