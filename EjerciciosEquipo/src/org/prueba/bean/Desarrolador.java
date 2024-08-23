@@ -9,6 +9,6 @@ package org.prueba.bean;
  *
  * @author informatica
  */
-public class Desarrollador {
+public class Desarrolador {
     
 }
