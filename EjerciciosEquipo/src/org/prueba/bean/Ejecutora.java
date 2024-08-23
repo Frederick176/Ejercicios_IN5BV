@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package org.prueba.bean;
 
 /**
  *
- * @author informatica
+ * Nombre : Johan Miguel Tojin Acabal
+ * Grado:   5to Perito Informatica
+ * Seccion: IN5BV
+ * Carnet:  2020591
  */
 public class Ejecutora {
     

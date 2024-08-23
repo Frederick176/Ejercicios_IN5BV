@@ -7,7 +7,10 @@ package org.prueba.bean;
 
 /**
  *
- * @author informatica
+ * Nombre : Johan Miguel Tojin Acabal
+ * Grado:   5to Perito Informatica
+ * Seccion: IN5BV
+ * Carnet:  2020591
  */
 public abstract class Empleado {
     // atributos:  nombre, edad, salario
@@ -51,17 +54,14 @@ public abstract class Empleado {
     public void setSalario(double salario) {
         this.salario = salario;
     }
-    
-    
-    
-    
+
     
      // Método abstracto trabajar
-    abstract void trabajar();
+    public abstract void trabajar();
     
     // metodo normal 
-    void trabajar(int horas) {
-        System.out.println("horas trabajadas.");
+    public void trabajar(int horas) {
+        System.out.println("horas trabajadas." + horas);
     }
     
     
