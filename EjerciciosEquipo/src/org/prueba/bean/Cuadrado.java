@@ -11,14 +11,15 @@ public class Cuadrado extends Forma {
     public Cuadrado() {
     }
 
-    public Cuadrado(double base, double altura) {
+    public Cuadrado(String color , double base, double altura) {
+        super(color);
         this.base = base;
         this.altura = altura;
     }
 
     @Override
     public double calcularArea() {
-       return (base * altura);
+       return base * altura;
     }
 
     @Override
