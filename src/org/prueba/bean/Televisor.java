@@ -13,4 +13,14 @@ public class Televisor extends Dispositivo{
         
     }
     
+    @Override
+    public void encender() {
+        System.out.println("Encendiendo televisor de " + tamañoPantalla + " pulgadas...");
+        
+    }
+    
+    public void encender(int volumen) {
+        System.out.println("Encendiendo televisor con volumen: " + volumen);
+        
+    }
 }
