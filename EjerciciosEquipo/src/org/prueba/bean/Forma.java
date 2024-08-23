@@ -12,16 +12,13 @@ public abstract class Forma {
     public Forma(String color) {
         this.color = color;
     }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
      public abstract double calcularArea();
      
-     public String calcularArea(String mensaje);
+     public double calcularArea(String mensaje){
+         System.out.println(mensaje);
+         return calcularArea();
+     }
+     
+     public abstract double calcularArea(double ajuste);
     
 }
